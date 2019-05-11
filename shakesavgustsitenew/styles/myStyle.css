@@ -1,0 +1,203 @@
+﻿body {   
+    direction: rtl;
+    width: 100%;
+    margin-top: -5px;
+    font-family: Segoe UI;
+}
+
+header { 
+    height: 220px;
+    width: 100.5%;
+    border: red 1px solid;
+    background-image: url('../images/Untitledlogo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*מתייחס לעיצוב תפריט ניווט*/
+
+nav {
+    position: relative;
+    left: 10px;
+    top: 185px;
+    margin-right: -23px;
+    margin-left: -10px;
+}
+
+    nav ul li {
+        display: inline-block;
+        float: right;
+        background-color: #CCCCCC;
+        width: 20%;
+        border-bottom: 4px solid #CCCCCC;
+    }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            height: 30px;
+            padding-top: 10px;
+            text-decoration: none;
+            text-align: center;
+            font-family: Segoe UI;
+        }
+        /*מתייחס לאנימציה של התפריט ניווט */
+
+        nav ul li:hover {
+            background-color: #BCBCBC;
+            border-bottom: 4px solid #BCBCBC;
+        }
+
+        nav ul li:active {
+            background-color: #DD796A;
+            border-bottom: 4px solid #F3714C;
+        }
+/*מתייחס לעיצוב החיווי שעוזר למשתמש להבין באיזה עמוד הוא */
+
+.currentPage {
+    border-bottom: 4px solid pink;
+}
+
+    .currentPage:hover {
+        border-bottom: 4px solid pink;
+    }
+
+    .currentPage:active {
+        border-bottom: 4px solid pink;
+    }
+
+section {
+    height:1050px;
+    width: 100%;
+    background-color: #F7F7F7;
+    margin-bottom: -30px;
+}
+
+#Content {
+    height: 60%;
+    display:inline-block;
+    margin-right:200px;
+}
+
+#homepage {
+    margin-top: -70px;
+    margin-bottom: 70px;
+    margin-right: -10px;
+}
+/*מתייחס לכותרות העמודים*/
+h2 {
+    margin-top: 70px;
+    margin-bottom: -70px;
+    margin-right: 360px;
+    color: #606060;
+}
+/*מתייחס לתמונה שלי בעמוד הראשון*/
+#shakedPhoto { 
+    width: 350px;
+    height: auto;
+    margin-top: 80px;
+    border-radius: 100%;
+    border: 2px solid #CCCCCC;
+    padding: 2px;
+    box-shadow: 10px 5px 5px #CCCCCC;
+    float:left;
+    
+}
+/*מתייחס לטקסט בעמוד הראשון*/
+#Textcontent {
+    height: 40%;
+    display: inline-block;
+    float: right;
+    margin-right: 200px;
+    margin-top:150px;
+    text-align:center;
+}
+/* מתייחס לעיצוב התמונה בעמוד השני*/
+#img1 {
+    width: 350px;
+    height: auto;
+    border: 2px solid #CCCCCC;
+    padding: 2px;
+    box-shadow: 10px 5px 5px #CCCCCC;
+    display: inline-block;
+    float: left;
+    margin-left: 110px;
+    margin-top: 130px;
+}
+#youtube {
+    margin-top: 230px;
+    display: inline-block;
+    float: right;
+    margin-left: 130px;
+}
+
+/*מתייחס לעיצוב הטקסט  בעמוד השלישי*/
+
+#Textcontent1 {
+    margin-top:80px;
+    text-align: center;
+}
+/* מתייחס לעיצוב התמונה בעמוד השלישי*/
+#img2 {
+    width: 900px;
+    height: auto;
+    margin-top: 75px;
+    margin-right: 100px;
+    border: 2px solid #CCCCCC;
+    padding: 2px;
+    box-shadow: 10px 5px 5px #CCCCCC;
+}
+/*מתייחס לטקסט בעמוד השלישי*/
+#Textcontent2 {
+    text-align: center;
+    font-family: Segoe UI;
+}
+
+#audio1 {
+    margin-right:600px;
+    
+}
+
+/*מתייחס לתמונה בעמוד הרביעי*/
+
+#img3 {
+    width: 500px;
+    height: auto;
+    margin-top: 75px;
+    margin-right:300px;
+    border: 2px solid #CCCCCC;
+    padding: 2px;
+    box-shadow: 10px 5px 5px #CCCCCC;
+}
+
+/*מתייחס לעיצוב הטקסט בעמוד הרביעי*/
+
+#Textcontent3 {
+    margin-right: 30px;
+    text-align: center;
+}
+
+#audio2 {
+    margin-right: 600px;
+}
+/*מתייחס לעיצוב האיקונים בעמוד החמישי*/
+
+.icons{
+ width:170px;
+ height:170px;
+ display:inline-block;
+ margin-top:200px;
+ margin-right:50px;
+
+}
+    /*מתייחס לאנימציה של האיקונים בעמוד החמישי*/
+
+.icons:hover {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
